@@ -1,0 +1,52 @@
+body {
+    background-image: url(media/cam.png);
+    background-size: cover;
+}
+
+.body {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 4vh;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+}
+@media (max-width: 1000px) {
+    .body {
+        display: list-item;
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h3 {
+        font-size: 45px;
+    }
+}
+
+.text {
+    min-width: 700px;
+}
+
+.text p {
+    max-width: 600px;
+}
+
+
+footer {
+    padding: 4.219vh;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 4vh;
+}
+
+table {
+    padding: 4vh;
+}
+
+table tr td {
+    padding: 2vh;
+}
