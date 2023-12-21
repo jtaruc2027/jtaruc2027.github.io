@@ -26,6 +26,27 @@ footer {
     }
 }
 
+.card {
+    text-align: center;
+}
+
+.text {
+    display: inline-flex;
+}
+
+@media (max-width: 1000px) {
+    .text {
+        flex-direction: column;
+    }
+    
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 600px;
+        font-size: 30px;
+    }
+}
+
 audio::-webkit-media-controls-play-button,
      audio::-webkit-media-controls-panel {
      background-color: white;
