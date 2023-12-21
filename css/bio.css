@@ -17,7 +17,7 @@ body {
     float: left;
 }
 
-@media {
+@media (max-width: 1000px){
     .body {
         font-size: 40px;
     }
