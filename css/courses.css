@@ -1,0 +1,56 @@
+body {
+    background-size: cover;
+}
+
+.body {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 4vh;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.wan {
+    max-width: 600px;
+    float: left;
+}
+
+.cards {
+    display: flex;
+}
+@media (max-width: 1000px) {
+    .cards {
+        flex-direction: column;
+    }
+    
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 600px;
+        font-size: 30px;
+    }
+}
+
+
+.card {
+    max-height: 83vh;
+    max-width: 18rem;
+}
+
+footer {
+    padding: 4.219vh;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 4vh;
+}
+
+table {
+    padding: 4vh;
+}
+
+table tr td {
+    padding: 2vh;
+}

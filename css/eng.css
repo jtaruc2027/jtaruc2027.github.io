@@ -1,0 +1,33 @@
+body {
+    background-size: cover;
+}
+
+.body {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 4vh;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer {
+    padding: 4.219vh;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 4vh;
+}
+
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: white;
+     }
+table {
+    padding: 4vh;
+}
+
+table tr td {
+    padding: 2vh;
+}

@@ -1,0 +1,41 @@
+body {
+    background-image: url(media/cam.png);
+}
+
+.body {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    padding: 4vh;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .body img{
+        width: 90%;
+    }
+
+    .body {
+        font-size: 30px;
+    }
+
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    padding: 4.219vh;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 4vh;
+    border-radius: 10px;
+}
+
