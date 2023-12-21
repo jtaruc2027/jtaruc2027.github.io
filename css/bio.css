@@ -17,6 +17,12 @@ body {
     float: left;
 }
 
+@media {
+    .body {
+        font-size: 40px;
+    }
+}
+
 
 footer {
     padding: 4.219vh;
