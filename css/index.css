@@ -21,6 +21,10 @@ body {
     background-size: cover;
 }
 
+video {
+    width: 26 vw;
+}
+
 :root {
     --primary: #06BBCC;
     --light: #F0FBFC;
